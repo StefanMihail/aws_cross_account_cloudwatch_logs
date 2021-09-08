@@ -7,7 +7,7 @@
 ##### Please reffer to the following link for [Installing and running the CloudWatch agent on your servers](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/install-CloudWatch-Agent-commandline-fleet.html)
 ![Scheme](images/diagram.png)
 
-##  Please check the below description of the 5 groups of Linux log files, names and usage which based on your needs you can set up. 
+###  Please check the below description of the 5 groups of Linux log files, names and usage which based on your needs you can set up. 
 ##### From a security perspective, here are 5 groups of files which are essential. Many other files are generated and will be important for system administration and troubleshooting.
 
 ### 1. The main log file
