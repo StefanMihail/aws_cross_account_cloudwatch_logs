@@ -1,8 +1,7 @@
 ## AWS Cross account clowdwatch logs setup 
 
-
 ### How to set it up:
-##### this is an AWS cross account cloudwatch log setup, using a bootstrap bash script, in order to set it up you will have to edit the [receiver-role-policy.json](xxx), [sender-role-policy.json](xxx) files and add the `{receiver_AWS_accountID}` plus the [target-trust.json](xxx) where you need to add the `{source_AWS_accountID}` and than referance the __role arn__ in the [user-data.sh](xxx) script. Assuming you want to send the linux logs from one AWS account to a different AWS account. 
+##### this is an AWS cross account cloudwatch log setup, using a bootstrap bash script, in order to set it up you will have to edit the [receiver-role-policy.json](https://github.com/StefanMihail/aws_cross_account_cloudwatch_logs/blob/master/receiver-role-policy.json), [sender-role-policy.json](https://github.com/StefanMihail/aws_cross_account_cloudwatch_logs/blob/master/sender-role-policy.json) files and add the `{receiver_AWS_accountID}` plus the [target-trust.json](https://github.com/StefanMihail/aws_cross_account_cloudwatch_logs/blob/master/target-trust.json) where you need to add the `{source_AWS_accountID}` and than referance the __role arn__ in the [user-data.sh](https://github.com/StefanMihail/aws_cross_account_cloudwatch_logs/blob/master/user-data.sh) script. Assuming you want to send the linux logs from one AWS account to a different AWS account. 
 
 ##### Please reffer to the following link for [Installing and running the CloudWatch agent on your servers](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/install-CloudWatch-Agent-commandline-fleet.html)
 ![Scheme](images/diagram.png)
